@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@media (max-width: 1000px){
+}
+#mainwrapper header {
+	/*Header */
+	background-color: #4b4e48;
+	overflow: auto;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+#mainwrapper header nav {
+	
+
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 2%;
+	width: 68%;
+	float: left;
+	color: rgba(146,146,146,1.00);
+}
+header nav a {
+	/* Links in header */
+	padding-right: 2%;
+}
+#content #mainContent h1, #content #mainContent h2 {
+	/* Styling for main headings */
+	color: black;
+}
+#content #mainContent h3 {
+	/*Captions ot Taglines */
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: black;
+}
+#content #mainContent #bannerImage {
+	/*Container for main banner image */
+	width: 100%;
+	background-color: black;
+}
+#content #mainContent p {
+	/* All paragraphs under maincontent */
+	color: black;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	text-align: justify;
+}
+#content #mainContent #authorInfo {
+	/* Author info section */
+	background-color: rgba(208,207,207,1.00);
+}
+#content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
+	color: black;
+	padding-left: 2%;
+	padding-top: 11px;
+}
+#content #mainContent #authorInfo p {
+	color: black;
+	padding-left: 2%;
+	padding-top: 0px;
+	padding-bottom: 11px;
+	padding-right: 2%;
+}
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #0F6711;
+  border-radius: 8px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+hr.rounded {
+  border-top: 8px solid #0F6711;
+  border-radius: 5px;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+footer article {
+	/* Footer articles */
+	width: 46%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: justify;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+}
+footer article h3 {
+	/* Footer article titles */
+	text-align: center;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+#mainContent {
+	/* Container for the blog post in individal blog view */
+	padding-left: 2%;
+	width: 71%;
+	float: left;
+	padding-right: 2%;
+	padding-top: 41px;
+}
+
+#mainwrapper {
+	/* Container of all content */
+	width: 80%;
+	overflow: auto;
+	margin-left: 10%;
+}
+#content #sidebar input {
+	/* Search box in sidebar */
+	width: 98%;
+	height: 32px;
+}
+#content #sidebar #adimage {
+	/* Container for Image in sidebar */
+	width: 100%;
+	background-color: rgba(208,207,207,1.00);
+	margin-top: 46px;
+	float: none;
+	overflow: auto;
+}
+nav ul li {
+	list-style-type: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+nav ul {
+	padding-left: 0%;
+}
+nav ul li a {
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+#footerbar {
+	/* Footer bar at the bottom of the page */
+	height: 18px;
+	clear: both;
+	background-color: rgba(208,207,207,1.00);
+	width: 100%;
+}
+footer {
+	/* Container for footer artices */
+	width: 71%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.notOnDesktop {
+	/*element to be displayed only in mobile view and tabet view */
+	display: none;
+}
+#mainContent #bannerImage img {
+	/* Actual banner image */
+	width: 100%;
+}
+#sidebar #adimage img {
+	/* Image in sidebar */
+	width: 100%;
+	float: left;
+}
+#mainwrapper header nav a {
+	/* Links in header */
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}

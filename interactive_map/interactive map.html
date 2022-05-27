@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .map {
+                position: relative;
+                display: inline-block;
+                margin: 50px;
+            }
+            .map .img-top {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+            .map:hover .img-top {
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="map">
+            <img src="update%20map.png" alt="original map">
+            <img src="update%20map%20w%20names.png" class="img-top" alt="name map" usemap="#NZmap" width="400" height="500">
+                <map name="NZmap">
+                    <area shape="circle" coords="202,333,10" class="christchurch" alt="Christchurch" href="christchurch.html" >
+                    <area shape="circle" coords="265,100,10" class="auckland" alt="Auckland" href="auckland.html">
+                    <area shape="circle" coords="206,17,10" class="caperegina" alt="Cape Regina" href="CapeR.html">
+                    <area shape="circle" coords="133,324,10" class="foxglacier" alt="Fox Glacier" href="FGDes.html">
+                    <area shape="circle" coords="278,151,10" class="glowworm" alt="Glow Worm Caves" href="GWCaves.html">
+                </map> 
+        </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flight Booking Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">      
+    </head>
+	
+    <body>
+		
+        <div class="booking-form-box">
+
+        <div class="radio-btn">
+			
+            <input type="radio" class="btn" name="check" checked="checked"><span>Auckland</span><br>
+            <input type="radio" class="btn" name="check"><span>ChristChurch</span><br>
+            <input type="radio" class="btn" name="check"><span>Queenstown</span>
+        </div>
+            
+        <div class="booking-form">
+            <label>Hotel or bed and breakfast</label>
+                <input type="text" class="form-control" placeholder="Enter choice">
+           
+        <div class="input-grp">
+            <label>Booking</label>
+                <input type="date" class="form-control select-date">
+        </div>
+            
+        <div class="input-grp">
+            <label>Leaving</label>
+                <input type="date" class="form-control select-date">
+        </div>
+            
+        <div class="input-grp">
+            <label>Adults</label>
+                <input type="number" class="form-control" value="1">
+        </div>
+            
+        <div class="input-grp">
+            <label>Children</label>
+                <input type="number" class="form-control" value="0">
+        </div>
+            
+        <div class="input-grp">
+            <label>Type of room</label>
+            <select class="custom-select">
+                <option value="1">Normal</option>
+                <option value="2">Suit</option>
+				 <option value="3">Bottom floor</option>
+            </select>
+        </div>    
+            <br>
+        <div class="input-grp">
+            <br><button type="button" class="btn btn-primary flight">Submit</button>
+        </div>
+            
+        </div>
+        </div>
+    
+    
+    
+    
+    </body>
+</html>
+
