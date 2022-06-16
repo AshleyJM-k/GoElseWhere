@@ -1,2 +1,2 @@
 # GoElseWhere
-Travel website for my CSI 2999 project. Will be updating the README through a few days!
+Travel website for new zealand including places to travel, currency converter, interactice map with weather API and direct links to each activity with respective pages. 
