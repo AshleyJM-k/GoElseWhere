@@ -4,3 +4,7 @@ Travel website for New Zealand including places to travel, currency converter, i
 
 ## Hiking Page example
 ![image](https://github.com/AshleyJM-k/GoElseWhere/blob/main/Hiking/images/hiking.png)
+
+## Interactive map with link in the URL bar
+
+![image](https://github.com/AshleyJM-k/GoElseWhere/blob/main/images/map.png)
