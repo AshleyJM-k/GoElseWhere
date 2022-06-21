@@ -1,2 +1,4 @@
 # GoElseWhere
-Travel website for new zealand including places to travel, currency converter, interactice map with weather API and direct links to each activity with respective pages. 
+Travel website for New Zealand including places to travel, currency converter, interactice map with weather API and direct links to each activity with respective pages.
+
+
